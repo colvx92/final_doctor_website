@@ -153,6 +153,12 @@ a:hover,a:active,a:focus{
   width:200px;
 }
 
+/*jQuery background mobile responsive*/
+.ui-page{
+	background-image: url(../images/head-img.jpg);
+}
+
+
 header{
 	background-image: url(../images/head-img.jpg);
   background-position: center;
@@ -675,7 +681,7 @@ header{
 }
 .block-text p {
     color: #585858;
-		height: 80px;
+		height: 114px;
 		overflow-y: scroll;
 }
 .sprite {
