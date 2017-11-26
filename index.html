@@ -10,7 +10,7 @@
 
   <!-- meta -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1,  shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <!-- stylesheets -->
@@ -567,6 +567,14 @@
 
         <script src="assets/css/aos-master/dist/aos.js"></script>
         <script>AOS.init();</script>
+        <script>
+          AOS.init({
+              startEvent: 'load'
+          });
+
+          setTimeout(AOS.refreshHard, 150);
+        });
+        </script>
         <script src="assets/js/form_handler.js" charset="utf-8"></script>
 
         <!-- <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
