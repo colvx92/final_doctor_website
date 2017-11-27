@@ -810,17 +810,23 @@ header{
     position: relative;
     min-height: 600px;
 }
-#googleMap {
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    height: 100%;
+
+
+.mapback{
+	background-image: url(../images/tony_locations.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+  background-size: cover;
 }
 #contact-area {
-    background: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    position: relative;
+		background: rgba(0, 0, 0, 0.7);
+		/*opacity: 0.5;*/
+    max-width: 100%;
+
+    background-position: center;
     padding: 80px 0px 60px 0px;
+
 }
 
 .moreDetails {
@@ -1080,6 +1086,10 @@ footer {
 
 @media all and (max-width: 991px) {
 
+	.mapback{
+		background-image: url(../images/tony_locations_small.png);
+	}
+
 	.logo-text{
 		font-size: 2em;
 	}
@@ -1098,6 +1108,9 @@ footer {
 
 @media all and (max-width: 768px) {
 
+	.mapback{
+		background-image: url(../images/tony_locations_small.png);
+	}
 	.logo-text{
 		font-size: 2em;
 	}
@@ -1139,7 +1152,9 @@ footer {
 }
 @media all and (max-width: 380px) {
 
-
+	.mapback{
+		background-image: url(../images/tony_locations_tiny.png);
+	}
 	.logo-text {
 	    font-size: 1em;
 	}
@@ -1167,6 +1182,9 @@ footer {
 
 @media all and (max-width: 480px) {
 
+	.mapback{
+		background-image: url(../images/tony_locations_tiny.png);
+	}
 	.scrollDown {
 	    top: 70%;
 	    left: 44%;
