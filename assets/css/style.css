@@ -813,7 +813,7 @@ header{
 
 
 .mapback{
-	background-image: url(../images/tony_locations.png);
+	background-image: url(../images/tony_locations.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	max-width: 100%;
@@ -1087,7 +1087,7 @@ footer {
 @media all and (max-width: 991px) {
 
 	.mapback{
-		background-image: url(../images/tony_locations_small.png);
+		background-image: url(../images/tony_locations_small.jpg);
 	}
 
 	.logo-text{
@@ -1109,7 +1109,7 @@ footer {
 @media all and (max-width: 768px) {
 
 	.mapback{
-		background-image: url(../images/tony_locations_small.png);
+		background-image: url(../images/tony_locations_small.jpg);
 	}
 	.logo-text{
 		font-size: 2em;
@@ -1153,7 +1153,7 @@ footer {
 @media all and (max-width: 380px) {
 
 	.mapback{
-		background-image: url(../images/tony_locations_tiny.png);
+		background-image: url(../images/tony_locations_tiny.jpg);
 	}
 	.logo-text {
 	    font-size: 1em;
@@ -1183,7 +1183,7 @@ footer {
 @media all and (max-width: 480px) {
 
 	.mapback{
-		background-image: url(../images/tony_locations_tiny.png);
+		background-image: url(../images/tony_locations_tiny.jpg);
 	}
 	.scrollDown {
 	    top: 70%;
