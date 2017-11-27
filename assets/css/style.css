@@ -469,6 +469,7 @@ header{
 	z-index: 2;
 	/* for firefox 31 */
 	transform: rotateY(0deg);
+	padding-right: 2%;
 }
 
 /* back, initially hidden pane */
@@ -482,7 +483,7 @@ header{
 	-webkit-text-transform: uppercase; /* Safari */
 	font-weight: 700;
   font-size: 18px;
-  margin-top: 13%;
+  margin-top: 16%;
   text-transform: uppercase;
 }
 
